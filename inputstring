@@ -1,0 +1,17 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main()
+{
+    string inputstring;        // declare a variable to hold our input
+    getline(cin, inputstring); // get a line of input from cin and save it to our variable
+
+    cout << "Hello, World." << endl;
+
+    cout << inputstring << endl;
+
+    return 0;
+}
